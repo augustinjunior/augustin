@@ -1,0 +1,272 @@
+html>
+<head>
+    <link rel="stylesheet" type="text/css" href="main.css">
+    <title> Ayrton Senna Fanpage</title>
+</head>
+<body style="background-color:#ffff;">
+    <header class="menu-principal">
+        <main>
+        <div class="header-1">
+            <div class="logo">
+                <img src="logo.png" alt="logo">
+            </div>
+        <div>
+        </header>
+        <main>
+         <div class="header-2">
+          <div class="menu">
+              <ul>
+                  <li><a href="#biography">Biography</a></li>
+                  <li><a href="#stats">Stats</a></li>
+                  <li><a href="#contact">Contact</a></li>
+              </ul>
+          </div>   
+         </div>   
+        </main>   
+        </div>
+    </main>
+    </header>
+    <br>
+    <br>
+    
+  
+        <div id="biography">
+        <h1 style="text-align: center; font-family:Arial, Helvetica, sans-serif; font-size:20px; text-transform: uppercase; color:#00AAD4;">Biography</h1>
+        </div>
+        <br>
+        <div class="box">
+            <div class="imgBox">
+            <img src="ayrton_senna_1.png" align="left" alt="image">
+            </div>
+            <div class="content">
+                <h2>Career</h2>
+                <p>Ayrton Senna da Silva was a Brazilian racing driver who won the Formula One World Drivers' Championship in 1988, 1990 and 1991.Senna is one of three Formula One drivers from Brazil to win the World Championship and won 41 Grands Prix and 65 pole positions,with the latter being the record until 2006. He died in an accident leading the 1994 San Marino Grand Prix driving for the Williams team.
+                <p>Senna was recognised for his qualifying speed over one lap, and from 1989 until 2006 he held the record for most pole positions. He was also acclaimed for his wet weather performances, such as the 1984 Monaco Grand Prix, the 1985 Portuguese Grand Prix, and the 1993 European Grand Prix. He holds a record six victories at the Monaco Grand Prix, is the fifth-most successful driver of all time in terms of race wins and has won more races for McLaren than any other driver in history. Senna courted controversy throughout his career, particularly during his turbulent rivalry with Prost. In the Japanese Grands Prix of 1989 and 1990, each of which decided the championship of that year, collisions between Senna and Prost determined the eventual winner.</p>
+                    <p></p>
+                <br>
+                <h2>Legacy</h2>
+                <p>Many safety improvements were made in the sport following Senna's and Ratzenberger's deaths and Barrichello's crash. These include improved crash barriers, redesigned tracks, higher crash safety standards (such as larger sills along the driver cockpit) and major cuts to engine power. This was despite calls for action in 1989, after a serious high-speed crash in which Senna's friend, Gerhard Berger, suffered burns to his hand. No action took place after that crash because, following an inspection by Senna and Berger, they ended up siding with officials who had, for years, claimed that the wall could not be moved further back due to a river nearby. Ayrton Senna da Silva was a Brazilian racing driver who won the Formula One World Drivers' Championship in 1988, 1990 and 1991.</p>
+                <p>Few months before his death, Senna had discussed with his sister the foundation of a charitable organization, based on a desire to contribute to those less fortunate in a more organised and effective manner. After his death, Viviane Senna set up the Instituto Ayrton Senna in his honour, which has invested nearly US$80 million over the last 12 years in social programs and actions in partnership with schools, government, NGOs, and the private sector, aimed at offering children and teenagers from low-income backgrounds the skills and opportunities they need to develop their full potential as persons, citizens, and future professionals.The Senninha ("Little Senna") cartoon character, born in 1993/94, was another means by which Senna extended his role-model status in favour of Brazilian children.<p>
+                
+            </div>
+        </div>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+
+                
+        <div id="stats">
+        <h1 style="text-align: left; font-family:Arial, Helvetica, sans-serif; font-size:20px; text-transform: uppercase; color:#00AAD4;">Stats</h1>
+        </div>
+        <div class="content">
+            <h2>Formula One World Championship career</h2>
+        </div>
+                
+        <div class="content"></div>
+        <table class="table">
+            <thead>
+                <tr>
+                    <th>Category</th>
+                    <th>Information</th>
+                </tr>
+            </thead>
+            <tbody>
+            <tr>
+              <td>Active years</td>
+              <td>1984 - 1994</td>
+            </tr>
+            <tr>
+              <td>Teams</td>
+              <td>Toleman, Lotus, McLaren, Williams</td>
+            </tr>
+            <tr>
+              <td>Championships</td>
+              <td>3 (1989, 1190, 1991)</td>
+            </tr>
+            <tr>
+              <td>Wins</td>
+              <td>41</td>
+            </tr>
+            <tr>
+              <td>Pole Positions</td>
+              <td>65</td>
+            </tr>
+            <tr>
+              <td>Podiums</td>
+              <td>80</td>
+            </tr>
+            <tr>
+              <td>Career Points</td>
+              <td>610</td>
+            </tr>
+            <tr>
+                <td>Fastest Laps</td>
+                <td>19</td>
+              </tr>
+          </tbody></table>
+      
+        
+        </div>  
+         
+        <br>
+        <br>
+        <div id="contact">
+                       <h1 style="text-align: center; font-family:Arial, Helvetica, sans-serif; font-size:20px; text-transform: uppercase; color:#00AAD4;">Contact</h1>
+            </div>
+            <div class="box">
+                <form>      
+                    <input name="name" type="text" class="feedback-input" placeholder="Name" />   
+                    <input name="email" type="text" class="feedback-input" placeholder="Email" />
+                    <textarea name="text" class="feedback-input" placeholder="Comment"></textarea>
+                    <input type="submit" value="SUBMIT"/>
+                  </form>
+                <div class="imgBox">
+                    <img src="formula_1.png" alt="image">
+                </div>
+               
+                
+            </div>
+    
+</div>
+</body>
+
+
+</body>
+
+</html>
+
+body {
+width: 100%;
+height: 100%;
+margin:0;
+padding: 0;   
+}
+.menu-principal{
+width: 100%;
+background-color: rgb(15, 17, 17);
+height: 60px;
+float: left;
+position: relative;
+text-align: center;
+}
+.main {
+margin: 0 auto;
+width: 100%;
+}
+.logo{
+padding: 20px;
+float: center;
+}
+.header-1{
+background-color:rgb(15, 17, 17);
+height: 40px;
+}
+.header-2{
+background-color: #00AAD4;
+width: 100%;
+border-bottom: 0px solid #efefef;
+}
+.menu ul li {
+display: inline-block;
+color:rgb(245, 248, 248);
+text-align: center;
+justify-content: space-around;
+width: 10%;
+padding: 15px;
+}
+.menu ul li a {
+    color:rgb(239, 245, 245);
+    text-decoration: none;
+    font-size: 18px;
+    text-transform: uppercase;
+    font-family: Arial, Helvetica, sans-serif;
+    width: 100vw;
+    text-align: center;
+    margin: 15px;
+}
+
+.content h2{
+    font-size: 18px;
+    text-transform: uppercase;
+    font-family: Arial, Helvetica, sans-serif; 
+
+}
+
+.content p{
+    font-size: 15.5px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: justify; 
+        
+}
+
+.table {
+    border-collapse: collapse;
+    margin: 25px 0;
+    font-size: 1em;
+    font-family: sans-serif;
+    min-width:400px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+    text-align: left;
+    width: 50%;
+            
+}
+.table thead tr {
+    background-color: #00AAD4;
+    color: #ffffff;
+    text-align: left;
+    font-weight: bold;
+}
+
+.table th,
+.table td {
+    padding: 12px 15px;
+    
+}
+@import url(https://fonts.googleapis.com/css?family=Montserrat:400,700);
+
+body { background:rgb(30,30,40); }
+form { max-width:420px; margin:50px auto; }
+
+.feedback-input {
+  color:white;
+  font-family: Helvetica, Arial, sans-serif;
+  font-weight:500;
+  font-size: 18px;
+  border-radius: 5px;
+  line-height: 22px;
+  background-color: transparent;
+  border:2px solid #00AAD4;
+  transition: all 0.3s;
+  padding: 13px;
+  margin-bottom: 15px;
+  width:100%;
+  box-sizing: border-box;
+  outline:0;
+}
+
+.feedback-input:focus { border:2px solid #00AAD4; }
+
+textarea {
+  height: 150px;
+  line-height: 150%;
+  resize:vertical;
+}
+
+[type="submit"] {
+  font-family: 'Montserrat', Arial, Helvetica, sans-serif;
+  width: 100%;
+  background:#00AAD4;
+  border-radius:5px;
+  border:0;
+  cursor:pointer;
+  color:white;
+  font-size:24px;
+  padding-top:10px;
+  padding-bottom:10px;
+  transition: all 0.3s;
+  margin-top:-4px;
+  font-weight:700;
+}
+[type="submit"]:hover { background:#00AAD4; }
